@@ -1,0 +1,153 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:linear-gradient(135deg,#0f0f0f,#1a012e,#2c003e);
+color:white;
+}
+
+header{
+text-align:center;
+padding:60px 20px;
+background:linear-gradient(135deg,#ff4fd8,#7b2cff);
+box-shadow:0 5px 20px rgba(255,0,255,0.3);
+}
+
+.profile-img{
+width:180px;
+height:180px;
+border-radius:50%;
+object-fit:cover;
+border:5px solid white;
+margin-bottom:20px;
+}
+
+header h1{
+font-size:45px;
+margin-bottom:10px;
+}
+
+.tagline{
+font-size:18px;
+opacity:0.9;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:white;
+color:#7b2cff;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+section{
+padding:60px 30px;
+text-align:center;
+}
+
+h2{
+font-size:35px;
+margin-bottom:30px;
+color:#ff7bf2;
+}
+
+.about p{
+max-width:850px;
+margin:auto;
+line-height:1.8;
+font-size:18px;
+}
+
+.skills-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:15px;
+}
+
+.skill-box{
+background:linear-gradient(135deg,#ff4fd8,#7b2cff);
+padding:12px 25px;
+border-radius:25px;
+font-weight:bold;
+transition:0.3s;
+}
+
+.skill-box:hover{
+transform:translateY(-5px);
+}
+
+.project-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.project-card{
+width:280px;
+padding:20px;
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(10px);
+border-radius:20px;
+border:1px solid rgba(255,255,255,0.1);
+transition:0.4s;
+}
+
+.project-card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 20px #ff4fd8;
+}
+
+.project-card h3{
+color:#ff9df6;
+margin-bottom:15px;
+}
+
+.contact{
+background:rgba(255,255,255,0.05);
+margin:20px;
+border-radius:20px;
+}
+
+.contact p{
+margin:15px;
+font-size:18px;
+}
+
+footer{
+background:black;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+
+@media(max-width:768px){
+
+header h1{
+font-size:32px;
+}
+
+.profile-img{
+width:140px;
+height:140px;
+}
+
+.project-card{
+width:90%;
+}
+
+}
